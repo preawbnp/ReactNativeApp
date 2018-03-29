@@ -1,4 +1,4 @@
-import { StyleSheet, Dimensions } from 'react-native';
+import { StyleSheet, Dimensions, Image } from 'react-native';
 
 const window = Dimensions.get('window');
 
@@ -17,10 +17,10 @@ export default StyleSheet.create({
        margin: 10
    },
    text: {
-    color: '#ffffff',
-    fontSize: 20,
-    fontWeight: 'normal',
-    margin: 20
+        color: '#ffffff',
+        fontSize: 20,
+        fontWeight: 'normal',
+        margin: 20
     },
     slide1: {
         flex: 1,
@@ -39,5 +39,13 @@ export default StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#ff4d40'
-    }
+    },
+    textContainer: {
+        flex: 0,
+        justifyContent: 'center',
+        alignItems: 'center'
+    }, 
+    buttonContainer: {
+        marginTop: 30
+    },
 });
